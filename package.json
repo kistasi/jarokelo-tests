@@ -1,0 +1,30 @@
+{
+  "name": "jarokelo-tests",
+  "version": "1.0.0",
+  "description": "Browser tests for Jarokelo.hu",
+  "main": "index.js",
+  "scripts": {
+    "start": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kistasi/jarokelo-tests.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "browsertests",
+    "puppeteer",
+    "jarokelo"
+  ],
+  "author": "Marton Tasnadi (marton.tasnadi@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kistasi/jarokelo-tests/issues"
+  },
+  "homepage": "https://github.com/kistasi/jarokelo-tests#readme",
+  "dependencies": {
+    "jest": "^22.4.3",
+    "puppeteer": "^1.2.0"
+  }
+}
