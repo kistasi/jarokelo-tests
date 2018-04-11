@@ -18,6 +18,10 @@ beforeEach(async () => {
 })
 
 describe('Jarokelo frontpage', () => {
+  test('Take a screenshot', async () => {
+    await page.screenshot({path: 'output/screenshots/frontpage.png', fullPage: true});
+  });
+
   test('Check title', async () => {
     const title = await page.title();
     expect(title).toBe('Járókelő.hu. Ha megosztod, megoldod. - Járókelő.hu');
